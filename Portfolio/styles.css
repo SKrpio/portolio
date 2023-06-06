@@ -1,0 +1,58 @@
+body {
+    background-image: url('https://images.unsplash.com/photo-1483347756197-71ef80e95f73?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+html{
+    font-family: monospace;
+    font-size: 18px;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+h1 {
+    font-size: 2.6rem;
+}
+
+/* Header? */ 
+
+header a {
+    display: inline-flex;
+    color:#fafafa;
+    font-size: 1.1rem;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 1.6rem 0;
+ }
+
+/* ID Selectors*/ 
+#header-text h1 {
+    display: inline;
+   }
+   h1 {
+    display: flex;
+    justify-content: center ;
+    color:#fafafa;
+    text-shadow: 2px 2px 10px;
+   }
+#loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5em;
+    color: #fafafa;
+}
+ #bio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fafafa;
+ }
+
+ 

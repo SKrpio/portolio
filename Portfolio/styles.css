@@ -33,7 +33,7 @@ header a {
 
 /* ID Selectors*/ 
 #header-text h1 {
-    display: inline;
+    display:inline ;
    }
    h1 {
     display: flex;
@@ -41,6 +41,7 @@ header a {
     color:#fafafa;
     text-shadow: 2px 2px 10px;
    }
+
 #loading {
     display: flex;
     justify-content: center;
@@ -48,11 +49,19 @@ header a {
     line-height: 1.5em;
     color: #fafafa;
 }
- #bio {
+
+#bio-box {
+    border: double rgb(107, 150, 121);
+    background: grey;
+    padding:35px;
+    border-radius: 500px; /* smoothing hard edges to round? */
+    width: 80%; /* dees */
     display: flex;
     justify-content: center;
-    align-items: center;
-    color: #fafafa;
- }
+    margin: auto;
+    margin-top: 7%;
+}
 
- 
+#bio {
+    color: #fafafa;
+     }
